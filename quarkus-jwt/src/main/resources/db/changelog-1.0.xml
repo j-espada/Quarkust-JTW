@@ -32,6 +32,7 @@
 
         <rollback>
             <dropTable tableName="t_user"/>
-        </rollback>    </changeSet>
+        </rollback>
+    </changeSet>
 
 </databaseChangeLog> 
