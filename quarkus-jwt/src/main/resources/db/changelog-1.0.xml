@@ -29,6 +29,9 @@
                 <constraints nullable="false"/>
             </column>
         </createTable>
-    </changeSet>
+
+        <rollback>
+            <dropTable tableName="t_user"/>
+        </rollback>    </changeSet>
 
 </databaseChangeLog> 
